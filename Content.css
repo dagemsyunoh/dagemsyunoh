@@ -1,0 +1,221 @@
+
+.content
+{
+    box-sizing: border-box;
+	position: relative;
+    margin-top: 120vh;
+    margin-bottom: 0;
+    width: 100%;
+	z-index: 1;
+	justify-content: center;
+}
+.back
+{
+    position: relative;
+    height: 60vh;
+    width: 102%;
+    left:-1%;
+    background-color: #ffffff;
+}
+.lGray1
+{
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    background-color: #aaaaaa;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+.lGray2
+{
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    background-color: #aaaaaa;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+}
+
+.dGray1
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #444444;
+    clip-path: polygon(0 0, 97.5% 0%, 72.5% 100%, 0% 100%);
+}
+.dGray2
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #444444;
+    clip-path: polygon(2.5% 0%, 100% 0%, 100% 100%, 27.5% 100%);
+}
+
+.black
+{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    clip-path: polygon(0% 0%, 95% 0%, 70% 100%, 0% 100%);
+    background-color: #000000;
+}
+.dBlue
+{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 30% 100%);
+    background-color: #2f3952;
+}
+.copyright
+{
+    position: fixed;
+    z-index: 1000;
+	bottom: 0px;
+    width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: Arial;
+	font-size: 12pt;
+	text-align: center;
+}
+.half1
+{
+    position: relative;
+    float: left;
+    width: 48%;
+    height: 100%;
+    margin-right: 2%;
+}
+.half2
+{
+    position: relative;
+    float: right;
+    width: 48%;
+    height: 100%;
+    margin-left: 2%;
+}
+.half3
+{
+    position: relative;
+    float: left;
+    width: 48%;
+    height: 100%;
+    margin-right: 2%;
+}
+
+img
+{
+    object-fit: cover;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 90%;
+    width: 90%;
+    transition-duration: 0.5s;
+}
+img:hover
+{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100%;
+    width: 100%;
+}
+.half1 img
+{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%);
+}
+.half1 img:hover
+{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%);
+}
+.half2 img
+{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.half2 img:hover
+{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%);
+
+}
+.spacing
+{
+    z-index: -1000;
+    height: 80vh;
+}
+.bit
+{
+    height: 15vh;
+    width: 15vh;
+    object-fit: cover;
+    border: 1px solid #aaaaaa;
+    transition-duration: 2s;
+}
+
+.bit:hover
+{
+    height: 60vh;
+    width: 60vh;
+    transition-duration: 2s;
+    
+}
+#sample
+{
+    transition-duration: 1s;
+}
+#sample:hover
+{
+    height: 100vh;
+    transition-duration: 1s;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+  
+  .fa img:hover {
+    opacity: 0.7;
+    transition-duration: 0.5s;
+  }
+.fa img
+{
+    height: 10vh;
+    width: 10vh;
+}
+
+a:link
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #c3fdff;
+}
+a:focus
+{
+	color: #c3fdff;
+}
+a:active
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+h3
+{
+    
+    font-size: 30px;
+}

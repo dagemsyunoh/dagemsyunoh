@@ -1,0 +1,104 @@
+body
+{
+	background-image: linear-gradient(to bottom, #1a202e, transparent);
+	background-repeat: repeat-x;
+	background-color: rgba(7, 7, 7, 1);
+	font-family: 'Courier New';
+	color: #c3fdff;
+  overflow-x: hidden;
+  width: 100%;
+  max-height: 5000px;
+}
+::-webkit-scrollbar
+{
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: #202020;
+  border: inset 10px ##ffffff;
+}
+
+
+/* Thumb */
+::-webkit-scrollbar-thumb
+{
+  background: #404040;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background: #505050;
+}
+
+::-webkit-scrollbar-thumb:active
+{
+  background: #404040;
+}
+
+.header
+{
+    position: fixed;
+    margin-top: 200px;
+    z-index: 5000;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    top: 0;
+    color: #ffffff;
+	-webkit-animation: header 1s ease-in-out infinite alternate;
+	-moz-animation: header 1s ease-in-out infinite alternate;
+	animation: header 1s ease-in-out infinite alternate;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+@-webkit-keyframes header /*this one is for the glow effect of header*/
+{
+	from
+	{
+	  text-shadow: 0 0 3px #000000, 0 0 6px #c3fdff, 0 0 9px #8dffdd, 0 0 12px #8dffdd, 0 0 15px #8dffdd, 0 0 18px #8dffdd, 0 0 21px #8dffdd;
+	}
+	
+	to
+	{
+	  text-shadow: 0 0 6px #000000, 0 0 9px #9bffed, 0 0 12px #9bffed, 0 0 15px #9bffed, 0 0 18px #9bffed, 0 0 21px #9bffed, 0 0 24px #9bffed;
+	}
+}
+
+.shrink
+{
+    margin-top: 20px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+.shrink h1
+{
+    font-size: 50px;
+}
+.shrink h2
+{
+    font-size: 25px;
+}
+
+h1
+{
+	font-size: 80px;
+	text-align: center;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+
+h2
+{
+	font-size: 40px;
+	text-align: center;
+    transition: margin 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
