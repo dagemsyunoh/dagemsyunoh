@@ -1,6 +1,5 @@
 ## Hi there 👋 This is an old project that I will remake
-You can access it from the link below <br>
-https://dagemsyunoh.github.io/dagemsyunoh/
+You can check my webpage by clicking [here](https://dagemsyunoh.github.io/dagemsyunoh/){:target="_blank"}!
 <!--
 **dagemsyunoh/dagemsyunoh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
