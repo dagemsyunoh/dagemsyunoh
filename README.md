@@ -1,5 +1,5 @@
 ## Hi there 👋 This is an old project that I will remake
-You can check my webpage by clicking [here](https://dagemsyunoh.github.io/dagemsyunoh/){:target="_blank"} !
+You can check my webpage by clicking [here](https://dagemsyunoh.github.io/dagemsyunoh/)
 <!--
 **dagemsyunoh/dagemsyunoh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
